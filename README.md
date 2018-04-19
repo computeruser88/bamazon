@@ -13,4 +13,5 @@ bamazonManager.js is a CLI storefront management application. It offers four cho
 Demo video URL:  https://youtu.be/SWOO9irkTMQ
 
 Technologies used: Node.js, MySQL
+
 NPM packages: mysql, inquirer

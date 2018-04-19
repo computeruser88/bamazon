@@ -10,7 +10,7 @@ bamazonManager.js is a CLI storefront management application. It offers four cho
 * Add to inventory (lets managers specify a new total inventory for an existing item in case of re-orders)
 * Add new product (allows managers to add unique new items to the storefront)
 
-Demo video URL:  https://youtu.be/SWOO9irkTMQ
+Demo video URL:  https://youtu.be/1COC_YucSWQ
 
 GitHub repository: https://github.com/computeruser88/bamazon
 

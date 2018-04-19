@@ -13,7 +13,7 @@ var connection = mysql.createConnection({
 console.log("\nWelcome to Bamazon!\n\n");
 connection.connect(function (error) {
   if (error) {
-    throw error
+    throw error;
   };
   displayItems();
 });
@@ -101,6 +101,7 @@ function verifyQuantityExists(itemId, quantity) {
       }
       if (parseFloat(response[0].stock_quantity) >= parseFloat(quantity)) { // response is stock quantity for that item
         var newQuantity = parseFloat(response[0].stock_quantity) - parseFloat(quantity);
+        console.log("You have ordered quantity " + quantity + " of " + response[0].product_name + ".\n");
         updateQuantity(itemId, quantity, newQuantity);
       } else {
         console.log("Insufficient quantity: " + response[0].stock_quantity + " left.");

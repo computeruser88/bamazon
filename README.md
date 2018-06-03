@@ -1,5 +1,7 @@
 # Bamazon
 
+![Bamazon](https://media.giphy.com/media/1xnN3CTIKnkkeRMoM2/giphy.gif)
+
 This repository contains two Node.js applications: bamazonCustomer.js and bamazonManager.js.
 
 bamazonCustomer.js is a CLI storefront application. It displays items for sale and lets the customer select an item, by ID number, and a quantity of that item to purchase. The app then checks the item in inventory to make sure the order can be fulfilled; if so, the app calculates the total for the customer's purchase and exits.
